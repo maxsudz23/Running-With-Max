@@ -162,7 +162,6 @@ table {
     width: 100%;
     max-width: 48rem;
     border-collapse: collapse;
-    background-color: var(--white);
 }
 
 .content-section p {
