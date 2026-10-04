@@ -21,9 +21,9 @@ learnButton.addEventListener('click', () => {
 learnMoreButton1.addEventListener('click', () => {
     moreSection.hidden = false
     races.hidden = false
-    moreInfo.textContent = "On the track, that includes races like the mile, 3000m steeplechase, 5K, and 10K. In the fall, distance runners race cross country, which takes the sport off the track and onto grass, dirt, and hilly courses through parks and golf courses. Outside of school, road races range from local 5Ks all the way up to the marathon at 26.2 miles. What ties all of these events together is the training behind them: distance runners build their fitness through consistent mileage, long runs, and hard workouts that teach the body to hold a strong pace for as long as possible. It's a sport that rewards patience, smart pacing, and the willingness to keep pushing when your legs start to burn, and that's exactly what makes it so satisfying."
+    moreInfo.textContent = "On the track, distance events include races like the mile, 3000m steeplechase, 5K, and 10K. In the fall, distance runners race cross country, which takes the sport off the track and onto grass, dirt, and hilly courses through parks and golf courses. Outside of school, road races range from local 5Ks all the way up to the marathon at 26.2 miles. What ties all of these events together is the training behind them: distance runners build their fitness through consistent mileage, long runs, and hard workouts that teach the body to hold a strong pace for as long as possible. It's a sport that rewards patience, smart pacing, and the willingness to keep pushing when your legs start to burn, and that's exactly what makes it so satisfying."
     sideImg.src = "track.jpg"
-    sideImg.alt = "Just a stock image of a track."
+    sideImg.alt = "An outdoor running track with white lane lines"
     if (!moreSection.hidden) {
         moreInfo.scrollIntoView({behavior: 'smooth'})
     }

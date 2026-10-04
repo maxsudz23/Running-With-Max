@@ -74,7 +74,7 @@ header {
 }
 
 .question {
-    color: #BA0C2F;
+    color: #ffffff;
     background-color: #13322B;
     font-family: "Lato", sans-serif;
     padding: 1rem;
@@ -131,7 +131,7 @@ footer {
     background: transparent;
     border: none;
     cursor: pointer;
-    color:#ffffff;
+    color:gold;
     text-decoration: underline;
     font-family:"Lato",sans-serif;
     font-size: 12pt;
@@ -180,7 +180,7 @@ table {
 }
 
 .content-section th, td {
-    border: solid, #BA0C2F;
+    border: 1px solid #BA0C2F;
     padding: 0.75rem 1rem;
     text-align: left;
     vertical-align: top;
@@ -195,12 +195,12 @@ li {
 }
 
 .list-link {
-    color: #BA0C2F;
+    color: gold;
 }
 
 
 .contact-form {
-    padding-left: 1rem;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     
@@ -240,6 +240,10 @@ li {
     background-color: #13322B;
 }
 
+footer a.list-link {
+    text-decoration: none;
+}
+
 
 
 @media (max-width: 700px) {
@@ -256,5 +260,11 @@ li {
         width: 100%;
         height: auto;
         margin: 0;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
     }
 }
